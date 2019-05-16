@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule ^index\.html$ index.php [L]
+RewriteRule ^berita([0-9]+)-(.*)\.html$ detail.php?id=$1 [L]
+RewriteRule ^kategori([0-9])-(.*)\.html$ category.php?id_kategori=$1 [L]
+Options All -Indexes

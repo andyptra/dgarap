@@ -1,0 +1,8 @@
+RewriteEngine On
+
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?id=$1
+RewriteRule ^sedang-mengerjakan-soal\.html$ nggarap.php [L]
+RewriteRule ^mengerjakan-soal-sudah-selesai\.html$ result.php [L]
+RewriteRule ^cetak-nilai\.html$ cetaknilai.php [L]
+Options All -Indexes

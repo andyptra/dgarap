@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^index\.html$ index.php [L]
+Options All -Indexes

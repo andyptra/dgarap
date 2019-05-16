@@ -1,0 +1,8 @@
+RewriteEngine On
+
+
+RewriteRule ^soal-(.*)-(.*)\.html$ nggarap.php?id_ujian=$1&id_matkul=$2 [L]
+
+RewriteRule ^selesai\.html$ result.php [L]
+
+Options All -Indexes
